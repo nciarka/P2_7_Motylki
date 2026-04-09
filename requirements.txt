@@ -1,1 +1,11 @@
-
+Co należy robić w ramach projektu: 
+1. Sfinalizować tworzenie grupy 
+2. Sformułować pytania badawcze 
+3. Założyć repozytorium na githubie - dla kodu, i dla wszystkich potrzebnych materiałów i 
+zasobów. 
+4. Znaleźć dane z ogólnie dostępnych źródeł, na podstawie których może być stawiana 
+odpowiedź do pytania badawczego. 
+5. Przeprowadzić analizę danych używając metod, które były / będą omawiane podczas 
+wykładów i laboratorium. 
+6. Napisać raport 
+7. Przygotować folder ze wszystkimi materiałami potrzebnymi od replikacji wyników. 
