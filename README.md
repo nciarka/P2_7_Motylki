@@ -8,9 +8,14 @@ Celem projektu jest analiza zmian liczebności motyli w Kalifornii w latach 2000
 Dane zawierają informacje o liczbie zaobserwowanych motyli w poszczególnych latach oraz dla różnych gatunków.
 
 Kolumny:
-- `year` – rok obserwacji
-- `genus_species` – nazwa gatunku motyla
-- `count` – liczba zaobserwowanych osobników
+- site_name - lokalizacja
+- visit_date – data obserwacji
+- genus_species – nazwa gatunku motyla
+- pa - Presence/Absence (parametr binarny: 1 - gatunek był obecny, 0 - gatunek nie był obecny)
+- count – liczba zaobserwowanych osobników
+- year - rok obserwacji 
+- day - dzień w roku, w któym odbyła się obserwacja
+
 
 ## Metody analizy
 W projekcie wykorzystano:
