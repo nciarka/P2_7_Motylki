@@ -17,7 +17,7 @@ Lab grupa, ID, Nazwisko, Imie
 ## Opis danych
 Dane zawierają informacje o liczbie zaobserwowanych motyli w poszczególnych latach oraz dla różnych gatunków.
 
-Kolumny:
+===ZMIENNE=== 
 - site_name - lokalizacja
 - visit_date – data obserwacji
 - genus_species – nazwa gatunku motyla
