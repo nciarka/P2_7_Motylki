@@ -24,9 +24,9 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 
 ===ZRODLA DANYCH=== 
 =1= 
-Nazwa zrodla: 
-Nazwa danych: 
-Dataset URL: 
+Nazwa zrodla: Github
+Nazwa danych: Monitoring Western Butterflies: Count Data
+Dataset URL: https://github.com/zgompert/MontaneButterfliesLTREB/blob/master/Shapiro_Counts.csv.gz
 
 ===ZMIENNE=== 
 - site_name - lokalizacja
