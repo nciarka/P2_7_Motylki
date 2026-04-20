@@ -16,7 +16,8 @@ Lab grupa, ID, Nazwisko, Imie
 
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
-73134, Gawda, Agata: przygotowanie i wybór źródła danych, wkład w przygotowanie skryptu do analizy eksploracyjnej oraz wizualizacji danych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na githubie
+73134, Gawda, Agata: przygotowanie i wybór źródła danych, wkład w przygotowanie skryptu do analizy eksploracyjnej oraz wizualizacji danych, 
+wkład w tworzenie raportu, wkład w opracowanie repozytorium na githubie
 
 ===PYTANIA BADAWCZE=== 
 1. 
