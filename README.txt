@@ -23,9 +23,9 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 72525, Kołodziejczyk, Milena: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
 
 ===PYTANIA BADAWCZE=== 
-1. Jakie czynniki mogą potencjalnie wpływać na zaobserwowane zmiany liczebności motyli?
-2. Czy wyniki sugerują pogorszenie warunków środowiskowych dla motyli?
-3. Dlaczego niektóre gatunki radzą sobie lepiej niż inne?
+1. Czy obserwowany trend liczebności motyli ma charakter rosnący, malejący czy zmienny w czasie?
+2. Czy najczęściej występujące gatunki motyli wykazują podobne trendy zmian liczebności, czy różnią się między sobą?
+3. Które z analizowanych gatunków odnotowały największe zmiany liczebności w badanym okresie?
 
 ===ZRODLA DANYCH=== 
 =1= 
@@ -43,20 +43,14 @@ Dataset URL: https://github.com/zgompert/MontaneButterfliesLTREB/blob/master/Sha
 - day - dzień w roku, w któym odbyła się obserwacja
 
 ===ANALIZA=== 
-1. Zaobserwowane zmiany liczebności motyli mogą wynikać z wielu czynników środowiskowych. Do najważniejszych należą zmiany klimatyczne (np. temperatura, opady), utrata siedlisk związana z działalnością człowieka (urbanizacja, rolnictwo), a także dostępność roślin żywicielskich. Wahania liczebności mogą być również efektem naturalnej zmienności populacji oraz warunków pogodowych w poszczególnych latach.
-2. Ogólny spadek liczebności motyli w analizowanym okresie (około 44,7%) może sugerować pogorszenie warunków środowiskowych. Należy jednak zaznaczyć, że dane wykazują duże wahania między latami, co utrudnia jednoznaczną ocenę. Wyniki mogą wskazywać na negatywne trendy, ale wymagają dalszych analiz oraz uwzględnienia dodatkowych czynników środowiskowych.
-3. Zróżnicowane trendy wśród poszczególnych gatunków mogą wynikać z ich odmiennych wymagań środowiskowych oraz zdolności adaptacyjnych. Niektóre gatunki są bardziej odporne na zmiany środowiska i lepiej przystosowują się do warunków zmienionych przez działalność człowieka. Inne, bardziej wyspecjalizowane gatunki, mogą być wrażliwe na zmiany siedlisk i dostępność pokarmu, co prowadzi do spadków ich liczebności.
-4. Widoczne w danych nagłe wzrosty liczebności w niektórych latach mogą wynikać z krótkoterminowo sprzyjających warunków środowiskowych, takich jak korzystna pogoda lub zwiększona dostępność pożywienia. Możliwe jest również, że są one częściowo efektem zmienności w sposobie zbierania danych.
+1. Agregacja danych do poziomu rocznego w celu określenia całkowitej liczebności motyli w poszczególnych latach
+2. Analiza trendu liczebności motyli w czasie na podstawie danych zagregowanych
+3. Obliczenie procentowej zmiany liczebności motyli między rokiem 2000 a 2016
+4. Analiza zmian liczebności dla 5 najczęściej występujących gatunków motyli
 
 ===SRODOWISKO=== 
 Python version: 3.14
 Main libraries: pandas==3.0.2, matplotlib==3.10.8
-
-Wykonane analizy:
-- agregacja danych rocznych
-- analiza trendu liczebności
-- obliczenie zmiany procentowej
-- analiza 5 najczęściej występujących gatunków
 
 ===ZAWARTOSC=== 
 P2_7_Etap2/
