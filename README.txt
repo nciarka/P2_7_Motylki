@@ -45,12 +45,14 @@ Dataset URL: https://github.com/zgompert/MontaneButterfliesLTREB/blob/master/Sha
 ===ANALIZA=== 
 1. Agregacja danych do poziomu rocznego w celu określenia całkowitej liczebności motyli w poszczególnych latach
 2. Analiza trendu liczebności motyli w czasie na podstawie danych zagregowanych
-3. Obliczenie procentowej zmiany liczebności motyli między rokiem 2000 a 2016
+3. Obliczenie procentowej zmiany liczebności motyli między rokiem 2000 a 2016 (dla całej populacji motyli oraz dla 5 najpopularniejszych gatunków)
 4. Analiza zmian liczebności dla 5 najczęściej występujących gatunków motyli
+5. Analiza regresji liniowej
+6. Obliczenie współczynnika zmienności dla poszczególnych gatunków motyli
 
 ===SRODOWISKO=== 
 Python version: 3.14
-Main libraries: pandas==3.0.2, matplotlib==3.10.8
+Main libraries: pandas==3.0.2, matplotlib==3.10.8, numpy==2.4.3
 
 ===ZAWARTOSC=== 
 P2_7_Etap2/
