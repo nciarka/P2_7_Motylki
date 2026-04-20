@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 df = pd.read_csv("data/data1.csv")
 #Filtrowanie lat 2000-2016
@@ -81,3 +82,30 @@ for species, cv in species_cv.head(5).items():
 print("\nTOP 5 NAJBARDZIEJ STABILNYCH GATUNKÓW W LATACH 2000-2016")
 for species, cv in species_cv.tail(5).items():
     print(f"- {species}: Współczynnik zmienności = {cv:.2f}%")
+
+#Regresja
+x = yearly_total.index.values
+y = yearly_total.values
+
+slope, intercept = np.polyfit(x, y, 1)
+
+slope, intercept = np.polyfit(x, y, 1)
+trend_line = slope * x + intercept
+
+#Tworzenie wykresu regresji
+plt.figure(figsize=(10, 6))
+
+plt.scatter(x, y, color='black', label='Rzeczywista liczebność', zorder=3)
+
+plt.plot(x, trend_line, color='red', linewidth=2, label=f'Linia trendu (spadek: {slope:.2f}/rok)')
+
+plt.title("Trend spadkowy populacji motyli (2000-2016)", fontsize=14)
+plt.xlabel("Rok")
+plt.ylabel("Liczba motyli")
+plt.xticks(range(2000, 2017, 2))
+plt.grid(True, linestyle=':', alpha=0.7)
+plt.legend()
+
+plt.show()
+
+print(f"\nWspółczynnik regresji: {slope:.2f}")
