@@ -111,5 +111,3 @@ plt.legend()
 plt.show()
 
 print(f"\nWspółczynnik regresji: {slope:.2f}")
-
-plt.savefig("outputs/plot1.png")
