@@ -59,7 +59,7 @@ P2_7_Etap2/
 │
 ├── README.md # opis projektu
 ├── main.py # główny kod analizy
-├── raport.pdf # raport końcowy
+├── raport_P2.pdf # raport końcowy etapu 2
 ├── requirements.txt # wymagane biblioteki
 │
 ├── data/
@@ -70,5 +70,5 @@ P2_7_Etap2/
 │ └── notebook1.ipynb # analiza w Jupyter Notebook
 │
 └── outputs/
-├── plot1.png # wykres wynikowy
+├── plot.png # wykres wynikowy
 └── data1.csv # dane po przetworzeniu
