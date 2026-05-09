@@ -18,7 +18,7 @@ Lab grupa, ID, Nazwisko, Imie
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
 71555, Banasiewicz, Aleksandra: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
 72791, Ciarka, Natalia: stworzenie i wkład w przygotowanie repozytorium na GitHubie, wkład w przygotowanie raportu
-73134, Gawda, Agata: przygotowanie i wybór źródła danych, napisanie skryptu do pobrania zestawu danych, wkład w przygotowanie skryptu do analizy eksploracyjnej oraz wizualizacji danych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na GitHubie
+73134, Gawda, Agata: udział w wyborze modeli uczenia maszynowego, przygotowanie danych i wykresów wynikowych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na GitHubie
 73185, Kęska, Karolina: udział w wyborze modeli uczenia maszynowego, przygotowanie i trenowanie dwóch modeli predykcyjnych, opracowanie kodu projektu, współtworzenie raportu końcowego, udział w przygotowaniu pytań badawczych oraz analizie wyników, współudział w opracowaniu i organizacji repozytorium projektu na GitHubie
 72525, Kołodziejczyk, Milena: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
 
