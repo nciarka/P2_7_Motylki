@@ -1,4 +1,4 @@
-# P2_2_Motylki
+# P2_7_Motylki
 
 ===PROJEKT=== 
 Numer grupy: 7
