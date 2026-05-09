@@ -19,13 +19,13 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 71555, Banasiewicz, Aleksandra: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
 72791, Ciarka, Natalia: stworzenie i wkład w przygotowanie repozytorium na GitHubie, wkład w przygotowanie raportu
 73134, Gawda, Agata: przygotowanie i wybór źródła danych, napisanie skryptu do pobrania zestawu danych, wkład w przygotowanie skryptu do analizy eksploracyjnej oraz wizualizacji danych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na GitHubie
-73185, Kęska, Karolina: zaproponowanie i przedstawienie koncepcji tematu projektu, wkład w przygotowanie raportu, wkład w przygotowanie pytań badawczych i ich analizy, wkład w opracowanie repozytorium na GitHubie
+73185, Kęska, Karolina: udział w wyborze modeli uczenia maszynowego, przygotowanie i trenowanie dwóch modeli predykcyjnych, opracowanie kodu projektu, współtworzenie raportu końcowego, udział w przygotowaniu pytań badawczych oraz analizie wyników, współudział w opracowaniu i organizacji repozytorium projektu na GitHubie
 72525, Kołodziejczyk, Milena: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
 
 ===PYTANIA BADAWCZE=== 
-1. Czy obserwowany trend liczebności motyli ma charakter rosnący, malejący czy zmienny w czasie?
-2. Czy najczęściej występujące gatunki motyli wykazują podobne trendy zmian liczebności, czy różnią się między sobą?
-3. Które z analizowanych gatunków odnotowały największe zmiany liczebności w badanym okresie?
+1. Czy możliwe jest przewidywanie liczebności motyli na podstawie historycznych danych monitoringowych?
+2. Które gatunki motyli wykazują najwyższą przewidywaną liczebność w prognozie na rok 2025?
+3. Czy analiza trendów pozwala wykryć gatunki o rosnącej lub malejącej liczebności?
 
 ===ZRODLA DANYCH=== 
 =1= 
@@ -45,16 +45,29 @@ Dane wyjściowe (output):
 - count – liczba zaobserwowanych osobników  
 
 ===ANALIZA=== 
-1. Agregacja danych do poziomu rocznego w celu określenia całkowitej liczebności motyli w poszczególnych latach
-2. Analiza trendu liczebności motyli w czasie na podstawie danych zagregowanych
-3. Obliczenie procentowej zmiany liczebności motyli między rokiem 2000 a 2016 (dla całej populacji motyli oraz dla 5 najpopularniejszych gatunków)
-4. Analiza zmian liczebności dla 5 najczęściej występujących gatunków motyli
-5. Analiza regresji liniowej
-6. Obliczenie współczynnika zmienności dla poszczególnych gatunków motyli
+1. Wstępne oczyszczanie i przygotowanie danych (konwersja dat,usunięcie brakujących wartości,przygotowanie cech czasowych)
+2. Feature engineering (utworzenie zmiennej day_of_year, przygotowanie zmiennych kategorycznych)
+3. Podział danych na zbiór treningowy i testowy:
+- dane przed 2019 rokiem (train),
+- dane od 2019 roku (test)
+4. Trenowanie modeli uczenia maszynowego (CatBoost, LightGBM)
+5. Porównanie modeli przy użyciu metryki MAE (Mean Absolute Error)
+6. Wybór najlepszego modelu na podstawie wyników ewaluacji
+7. Forecast liczebności motyli na rok 2025
+8. Analiza sezonowości występowania motyli
+9. Analiza trendów populacyjnych gatunków
+10. Wizualizacja wyników oraz interpretacja ekologiczna
 
 ===SRODOWISKO=== 
 Python version: 3.14
-Main libraries: pandas==3.0.2, matplotlib==3.10.8, numpy==2.4.3
+Main libraries: 
+- pandas,
+- numpy
+- matplotlib
+- scikit-learn
+- LightGBM
+- CatBoost
+- XGBoost
 
 ===ZAWARTOSC=== 
 P3_7_Motylki
