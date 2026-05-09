@@ -83,11 +83,11 @@ P3_7_Motylki
 ├── src/
 │ ├── Forecast.ipynb # przetrenowany model
 │
-└── outputs/
-│├── plot.png # wykresy i tabele wynikowe
-│└── data1.csv
-│└── data2.csv
-│└── data3.csv
+├── outputs/
+│ ├── plot.png # wykresy i tabele wynikowe
+│ └── data1.csv
+│ └── data2.csv
+│ └── data3.csv
 │
 └── models/
 ├── lightgbm_model.pkl # model
