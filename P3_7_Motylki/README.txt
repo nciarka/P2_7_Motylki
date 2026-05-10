@@ -16,11 +16,11 @@ Lab grupa, ID, Nazwisko, Imie
 
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
-71555, Banasiewicz, Aleksandra: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
-72791, Ciarka, Natalia: stworzenie i wkład w przygotowanie repozytorium na GitHubie, wkład w przygotowanie raportu
+71555, Banasiewicz, Aleksandra: 
+72791, Ciarka, Natalia: 
 73134, Gawda, Agata: udział w wyborze modeli uczenia maszynowego, przygotowanie danych i wykresów wynikowych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na GitHubie
 73185, Kęska, Karolina: udział w wyborze modeli uczenia maszynowego, przygotowanie i trenowanie dwóch modeli predykcyjnych, opracowanie kodu projektu, współtworzenie raportu końcowego, udział w przygotowaniu pytań badawczych oraz analizie wyników, współudział w opracowaniu i organizacji repozytorium projektu na GitHubie
-72525, Kołodziejczyk, Milena: wkład w przygotowanie raportu, wkład w opracowanie repozytorium na GitHubie
+72525, Kołodziejczyk, Milena: 
 
 ===PYTANIA BADAWCZE=== 
 1. Czy możliwe jest przewidywanie liczebności motyli na podstawie historycznych danych monitoringowych?
@@ -85,7 +85,7 @@ P3_7_Motylki
 │
 ├── outputs/
 │ ├── plot.png # wykresy i tabele wynikowe
-│ └── data1.csv
+│ └── data1.csv 
 │ └── data2.csv
 │ └── data3.csv
 │
