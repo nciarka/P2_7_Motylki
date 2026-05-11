@@ -16,7 +16,7 @@ Lab grupa, ID, Nazwisko, Imie
 
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
-71555, Banasiewicz, Aleksandra: 
+71555, Banasiewicz, Aleksandra: wkład w wyborze modelu uczenia maszynowego
 72791, Ciarka, Natalia: udział w wyborze modeli uczenia maszynowego, współudział w testowaniu modeli, wkład w interpretację wyników forecastingu, wkład w opracowanie wizualizacji oraz dokumentacji projektu
 73134, Gawda, Agata: udział w wyborze modeli uczenia maszynowego, przygotowanie danych i wykresów wynikowych, wkład w tworzenie raportu, wkład w opracowanie repozytorium na GitHubie
 73185, Kęska, Karolina: udział w wyborze modeli uczenia maszynowego, przygotowanie i trenowanie dwóch modeli predykcyjnych, opracowanie kodu projektu, współtworzenie raportu końcowego, udział w przygotowaniu pytań badawczych oraz analizie wyników, współudział w opracowaniu i organizacji repozytorium projektu na GitHubie
