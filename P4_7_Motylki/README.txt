@@ -2,8 +2,10 @@
 
 ===PROJEKT=== 
 Numer grupy: 7
-Nazwa projektu: Klasyfikacja trendu liczebności motyli w Kalifornii w 2025 roku na podstawie danych monitoringowych z 2000-2016 z wykorzystaniem modelu DistilBERT.
-Opis: Celem projektu było przygotowanie prostego modelu klasyfikacyjnego, który na podstawie danych dotyczących liczebności gatunków motyli przewiduje kierunek zmiany populacji w latach 2000–2016. 
+Nazwa projektu: Klasyfikacja trendu liczebności motyli w Kalifornii w 2025 roku na podstawie danych monitoringowych z 2000-2016 z 
+wykorzystaniem modelu DistilBERT.
+Opis: Celem projektu było przygotowanie prostego modelu klasyfikacyjnego, który na podstawie danych dotyczących liczebności gatunków 
+motyli przewiduje kierunek zmiany populacji w latach 2000–2016. 
 
 ===GRUPA=== 
 Lab grupa, ID, Nazwisko, Imie 
@@ -46,9 +48,14 @@ W projekcie przetestowano dwa różne podejścia:
 * klasyczny model machine learning oparty na danych tabelarycznych — LightGBM,
 * model Transformer wykorzystujący DistilBERT z biblioteki Hugging Face.
 
-Model LightGBM osiągnął lepsze wyniki w zadaniu prognozowania liczebności motyli. Dane wykorzystane w projekcie miały głównie charakter liczbowy i tabelaryczny, dlatego model LightGBM lepiej radził sobie z analizą zależności pomiędzy gatunkami, sezonowością oraz cechami czasowymi.
-Model DistilBERT został wykorzystany jako eksperymentalne podejście oparte na architekturze Transformer. Pomimo uzyskania stosunkowo wysokiej accuracy (~82%), szczegółowa analiza wykazała problemy związane z niezbalansowaniem klas oraz trudności w poprawnym rozpoznawaniu klasy „increasing”.
-Przeprowadzone eksperymenty pokazały, że klasyczne modele gradient boosting mogą osiągać lepsze wyniki niż modele Transformer w przypadku danych ekologicznych o strukturze tabelarycznej.
+Model LightGBM osiągnął lepsze wyniki w zadaniu prognozowania liczebności motyli. Dane wykorzystane w projekcie miały głównie charakter 
+liczbowy i tabelaryczny, dlatego model LightGBM lepiej radził sobie z analizą zależności pomiędzy gatunkami, sezonowością oraz cechami 
+czasowymi.
+Model DistilBERT został wykorzystany jako eksperymentalne podejście oparte na architekturze Transformer. Pomimo uzyskania stosunkowo 
+wysokiej accuracy (~82%), szczegółowa analiza wykazała problemy związane z niezbalansowaniem klas oraz trudności w poprawnym rozpoznawaniu 
+klasy „increasing”.
+Przeprowadzone eksperymenty pokazały, że klasyczne modele gradient boosting mogą osiągać lepsze wyniki niż modele Transformer w przypadku 
+danych ekologicznych o strukturze tabelarycznej.
 
 ===SRODOWISKO=== 
 Python version: 3.14
