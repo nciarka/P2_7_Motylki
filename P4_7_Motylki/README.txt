@@ -2,9 +2,8 @@
 
 ===PROJEKT=== 
 Numer grupy: 7
-Nazwa projektu: Jak zmieniała się liczebność zaobserwowanych motyli w Kalifornii w latach 2000-2016 na podstawie danych monitoringowych?
-Opis: Celem projektu jest analiza zmian liczebności motyli w Kalifornii w latach 2000–2016 na podstawie danych monitoringowych oraz przewidywanie przyszłych trendów.
-Projekt ma na celu zidentyfikowanie trendów w czasie oraz porównanie liczebności wybranych gatunków motyli.
+Nazwa projektu: Klasyfikacja trendu liczebności motyli w Kalifornii w 2025 roku na podstawie danych monitoringowych z 2000-2016 z wykorzystaniem modelu DistilBERT.
+Opis: Celem projektu było przygotowanie prostego modelu klasyfikacyjnego, który na podstawie danych dotyczących liczebności gatunków motyli przewiduje kierunek zmiany populacji w latach 2000–2016. 
 
 ===GRUPA=== 
 Lab grupa, ID, Nazwisko, Imie 
@@ -43,7 +42,7 @@ Dataset URL: https://github.com/zgompert/MontaneButterfliesLTREB/blob/master/Sha
 - day - dzień w roku, w któym odbyła się obserwacja
 
 ===ANALIZA=== 
-
+Zgodnie z poleceniem projektu wykonałyśmy 
 
 ===SRODOWISKO=== 
 Python version: 3.14
