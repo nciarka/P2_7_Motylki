@@ -23,7 +23,9 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 72525, Kołodziejczyk, Milena: 
 
 ===PYTANIA BADAWCZE=== 
-
+1. Czy możliwe jest przewidywanie liczebności motyli na podstawie historycznych danych monitoringowych?
+2. Które gatunki motyli wykazują najwyższą przewidywaną liczebność w prognozie na rok 2025?
+3. Czy analiza trendów pozwala wykryć gatunki o rosnącej lub malejącej liczebności?
 
 ===ZRODLA DANYCH=== 
 =1= 
