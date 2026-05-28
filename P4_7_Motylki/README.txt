@@ -42,11 +42,25 @@ Dataset URL: https://github.com/zgompert/MontaneButterfliesLTREB/blob/master/Sha
 - day - dzień w roku, w któym odbyła się obserwacja
 
 ===ANALIZA=== 
-Zgodnie z poleceniem projektu wykonałyśmy 
+W projekcie przetestowano dwa różne podejścia:
+* klasyczny model machine learning oparty na danych tabelarycznych — LightGBM,
+* model Transformer wykorzystujący DistilBERT z biblioteki Hugging Face.
+
+Model LightGBM osiągnął lepsze wyniki w zadaniu prognozowania liczebności motyli. Dane wykorzystane w projekcie miały głównie charakter liczbowy i tabelaryczny, dlatego model LightGBM lepiej radził sobie z analizą zależności pomiędzy gatunkami, sezonowością oraz cechami czasowymi.
+Model DistilBERT został wykorzystany jako eksperymentalne podejście oparte na architekturze Transformer. Pomimo uzyskania stosunkowo wysokiej accuracy (~82%), szczegółowa analiza wykazała problemy związane z niezbalansowaniem klas oraz trudności w poprawnym rozpoznawaniu klasy „increasing”.
+Przeprowadzone eksperymenty pokazały, że klasyczne modele gradient boosting mogą osiągać lepsze wyniki niż modele Transformer w przypadku danych ekologicznych o strukturze tabelarycznej.
 
 ===SRODOWISKO=== 
 Python version: 3.14
 Main libraries: 
+pandas
+numpy
+matplotlib
+scikit-learn
+transformers
+datasets
+torch
+evaluate
 
 ===ZAWARTOSC=== 
 P2_7_Etap2/
