@@ -70,20 +70,14 @@ torch
 evaluate
 
 ===ZAWARTOSC=== 
-P2_7_Etap2/
+P4_7_Motylki
 │
 ├── README.md # opis projektu
-├── main.py # główny kod analizy
 ├── raport.pdf # raport końcowy
-├── requirements.txt # wymagane biblioteki
-│
-├── data/
-│ └── data1.csv # dane wejściowe
 │
 ├── src/
-│ ├── script1.py # dodatkowy skrypt
-│ └── notebook1.ipynb # analiza w Jupyter Notebook
+│ └── hugging_face_train.py # dane oraz dzialanie
 │
 └── outputs/
-├── plot1.png # wykres wynikowy
-└── data1.csv # dane po przetworzeniu
+├── results.png # screenshot z wynikiem dzialania nr. 1
+└── result2.png # screenshot z wynikiem dzialania nr. 2
