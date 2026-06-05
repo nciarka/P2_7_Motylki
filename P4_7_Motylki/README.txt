@@ -17,7 +17,7 @@ Lab grupa, ID, Nazwisko, Imie
 
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
-71555, Banasiewicz, Aleksandra: 
+71555, Banasiewicz, Aleksandra: Weryfikacja czytelności raportu.
 72791, Ciarka, Natalia: 
 73134, Gawda, Agata: 
 73185, Kęska, Karolina: 
