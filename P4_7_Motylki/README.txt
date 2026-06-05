@@ -79,5 +79,5 @@ P4_7_Motylki
 │ └── hugging_face_train.py # dane oraz dzialanie
 │
 └── outputs/
-├── results.png # screenshot z wynikiem dzialania nr. 1
-└── result2.png # screenshot z wynikiem dzialania nr. 2
+  └── results.png # screenshot z wynikiem dzialania nr. 1
+  └── result2.png # screenshot z wynikiem dzialania nr. 2
