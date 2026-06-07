@@ -19,9 +19,9 @@ Lab grupa, ID, Nazwisko, Imie
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
 71555, Banasiewicz, Aleksandra: Weryfikacja czytelności raportu.
 72791, Ciarka, Natalia: Przygotowanie kodu do analizy danych, trenowanie modelu, wkład w tworzenie raportu i repozytorium
-73134, Gawda, Agata: Wkład w tworzenie raportu i repozytorium na githubie, udział w wyborze modelu oraz przygotowaniu danych wynikowych
+73134, Gawda, Agata: Wkład w tworzenie raportu, analizy i repozytorium na githubie, udział w wyborze modelu oraz przygotowaniu danych wynikowych
 73185, Kęska, Karolina: Wkład w tworzenie raportu i repozytorium na githubie
-72525, Kołodziejczyk, Milena: 
+72525, Kołodziejczyk, Milena: Wkład w raport i repozytorium.
 
 ===PYTANIA BADAWCZE=== 
 1. Czy możliwe jest przewidywanie liczebności motyli na podstawie historycznych danych monitoringowych?
