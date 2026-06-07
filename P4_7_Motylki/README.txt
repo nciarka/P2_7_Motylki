@@ -18,7 +18,7 @@ Lab grupa, ID, Nazwisko, Imie
 ===WKLAD=== 
 ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu na tym etapie. 
 71555, Banasiewicz, Aleksandra: Weryfikacja czytelności raportu.
-72791, Ciarka, Natalia: Trenowanie modelu, przygotowanie kodu do analizy danych, wkład w tworzenie raportu i repozytorium
+72791, Ciarka, Natalia: Przygotowanie kodu do analizy danych, trenowanie modelu, wkład w tworzenie raportu i repozytorium
 73134, Gawda, Agata: Wkład w tworzenie raportu i repozytorium na githubie, udział w wyborze modelu oraz przygotowaniu danych wynikowych
 73185, Kęska, Karolina: Wkład w tworzenie raportu i repozytorium na githubie
 72525, Kołodziejczyk, Milena: 
