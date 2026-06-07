@@ -20,7 +20,7 @@ ID, Nazwisko, Imie: Krótki opis wkładu każdego studenta do grupowego projektu
 71555, Banasiewicz, Aleksandra: Weryfikacja czytelności raportu.
 72791, Ciarka, Natalia: 
 73134, Gawda, Agata: Wkład w tworzenie raportu i repozytorium na githubie, udział w wyborze modelu oraz przygotowaniu danych wynikowych
-73185, Kęska, Karolina: 
+73185, Kęska, Karolina: Wkład w tworzenie raportu i repozytorium na githubie
 72525, Kołodziejczyk, Milena: 
 
 ===PYTANIA BADAWCZE=== 
